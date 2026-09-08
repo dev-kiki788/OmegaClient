@@ -2,7 +2,7 @@ appId: 'omegaclient'
 productName: 'OmegaClient'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2026 OmegaClient'
+copyright: 'Copyright © 2026 OmegaMC Studios'
 
 asar: true
 compression: 'maximum'
@@ -49,3 +49,4 @@ linux:
 directories:
   buildResources: 'build'
   output: 'dist'
+  
