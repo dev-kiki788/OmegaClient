@@ -1,22 +1,22 @@
 [ejs.landing]
-updateAvailableTooltip = "Update Available"
-usernamePlaceholder = "Username"
+updateAvailableTooltip = "Aggiornamento"
+usernamePlaceholder = "Nome utente"
 usernameEditButton = "Edit"
-settingsTooltip = "Settings"
+settingsTooltip = "Impostazioni"
 serverStatus = "SERVER"
 serverStatusPlaceholder = "OFFLINE"
-mojangStatus = "MOJANG STATUS"
-mojangStatusTooltipTitle = "Services"
-mojangStatusNETitle = "Non&nbsp;Essential"
-newsButton = "NEWS"
-launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
-newsNavigationStatus = "{currentPage} of {totalPages}"
-newsErrorLoadSpan = "Checking for News.."
-newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
-newsErrorNoneSpan = "No News"
+mojangStatus = "STATO MOJANG"
+mojangStatusTooltipTitle = "Servizi"
+mojangStatusNETitle = "Non&nbsp;Essenziale"
+newsButton = "NOTIZIA"
+launchButton = "GIOCA"
+launchButtonPlaceholder = "&#8226; Nessun server selezionato"
+launchDetails = "Attendere prego.."
+newsNavigationStatus = "{currentPage} di {totalPages}"
+newsErrorLoadSpan = "Controllo notizie in corso.."
+newsErrorFailedSpan = "Impossibile caricare le notizie"
+newsErrorRetryButton = "Riprova"
+newsErrorNoneSpan = "Nessuna novità"
 
 [ejs.login]
 loginCancelText = "Cancel"
@@ -35,28 +35,28 @@ loginPasswordDisclaimer1 = "Your password is sent directly to mojang and never s
 loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
 
 [ejs.loginOptions]
-loginOptionsTitle = "Login Options"
-loginWithMicrosoft = "Login with Microsoft"
-loginWithMojang = "Login with Mojang"
-cancelButton = "Cancel"
+loginOptionsTitle = "Opzioni di accesso"
+loginWithMicrosoft = "Accedi con Microsoft"
+loginWithMojang = "Accedi con Mojang"
+cancelButton = "Cancella"
 
 [ejs.overlay]
-serverSelectHeader = "Available Servers"
-serverSelectConfirm = "Select"
-serverSelectCancel = "Cancel"
-accountSelectHeader = "Select an Account"
-accountSelectConfirm = "Select"
-accountSelectCancel = "Cancel"
+serverSelectHeader = "Server disponibili"
+serverSelectConfirm = "Seleziona"
+serverSelectCancel = "Cancella"
+accountSelectHeader = "Seleziona un account"
+accountSelectConfirm = "Seleziona"
+accountSelectCancel = "Cancella"
 
 [ejs.settings]
-navHeaderText = "Settings"
+navHeaderText = "Impostazioni"
 navAccount = "Account"
 navMinecraft = "Minecraft"
 navMods = "Mods"
 navJava = "Java"
 navLauncher = "Launcher"
-navAbout = "About"
-navUpdates = "Updates"
+navAbout = "Di"
+navUpdates = "Aggiornamenti"
 navDone = "Fatto"
 tabAccountHeaderText = "Account Settings"
 tabAccountHeaderDesc = "Add new accounts or manage existing ones."
@@ -124,19 +124,19 @@ whatsNew = "What's New"
 updateReleaseNotes = "Update Release Notes"
 
 [ejs.waiting]
-waitingText = "Waiting for Microsoft.."
+waitingText = "In attesa di Microsoft.."
 
 [ejs.welcome]
-continueButton = "CONTINUE"
+continueButton = "CONTINUA"
 
 
 [js.discord]
-waiting = "Waiting for Client.."
+waiting = "In attesa del client.."
 state = "Server: {shortId}"
 
 [js.index]
-microsoftLoginTitle = "Microsoft Login"
-microsoftLogoutTitle = "Microsoft Logout"
+microsoftLoginTitle = "Accesso a Microsoft"
+microsoftLogoutTitle = "Esci da Microsoft"
 
 [js.login]
 login = "LOGIN"
@@ -153,22 +153,22 @@ title = "Unknown Error During Login"
 desc = "An unknown error has occurred. Please see the console for details."
 
 [js.landing.launch]
-pleaseWait = "Please wait.."
-failureTitle = "Error During Launch"
-failureText = "See console (CTRL + Shift + i) for more details."
+pleaseWait = "Attendere prego.."
+failureTitle = "Errore durante l'avvio"
+failureText = "Consulta la console (CTRL + Shift + i) per ulteriori dettagli."
 okay = "Okay"
 
 [js.landing.selectedAccount]
-noAccountSelected = "No Account Selected"
+noAccountSelected = "Nessun account selezionato"
 
 [js.landing.selectedServer]
-noSelection = "No Server Selected"
-loading = "Loading.."
+noSelection = "Nessun server selezionato"
+loading = "Caricamento.."
 
 [js.landing.serverStatus]
 server = "SERVER"
 offline = "OFFLINE"
-players = "PLAYERS"
+players = "GIOCATORI"
 
 [js.landing.systemScan]
 checking = "Checking system info.."
@@ -208,11 +208,11 @@ doneEnjoyServer = "Done. Enjoy the server!"
 checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
 
 [js.landing.news]
-checking = "Checking for News"
+checking = "Controllo notizie"
 
 [js.landing.discord]
 loading = "Loading game.."
-joining = "Sailing to Westeros!"
+joining = "Sailing to OmegaClient!"
 joined = "Exploring the Realm!"
 
 [js.overlay]
@@ -297,9 +297,9 @@ loginButton = "Login"
 selectAnotherAccountButton = "Select Another Account"
 
 [js.uicore.autoUpdate]
-checkingForUpdateButton = "Checking for Updates..."
-installNowButton = "Install Now"
-checkForUpdatesButton = "Check for Updates"
+checkingForUpdateButton = "Controllo aggiornamenti in corso..."
+installNowButton = "Installa Ora"
+checkForUpdatesButton = "Controlla aggiornamenti"
 
 [js.auth.microsoft.error]
 noProfileTitle = "Error During Login:<br>Profile Not Set Up"
