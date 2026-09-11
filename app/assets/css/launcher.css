@@ -1291,7 +1291,7 @@ body, button {
 #settingsContainer input[type=text] {
     color: white;
     background: rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 15px;
     border: 1px solid rgba(126, 126, 126, 0.57);
     font-family: 'Avenir Book';
     transition: 0.25s ease;
@@ -1387,7 +1387,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 5px;
     margin: 15px 0px;
     background: grey;
-    border-radius: 3px;
+    border-radius: 15px;
     position: relative;
 }
 .rangeSliderBar {
@@ -1395,7 +1395,7 @@ input:checked + .toggleSwitchSlider:before {
     background: #8be88b;
     width: 50%;
     height: 5px;
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 15px 0px 0px 15px;
     transition: background 0.25s ease;
 }
 .rangeSliderTrack {
@@ -1404,7 +1404,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 7px;
     height: 20px;
     background: white;
-    border-radius: 3px;
+    border-radius: 15px;
     left: 50%;
     cursor: ew-resize;
 }
@@ -1437,7 +1437,7 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     align-items: center;
     background: rgba(126, 126, 126, 0.57);
-    border-radius: 3px 0px 0px 3px;
+    border-radius: 15px 0px 0px 15px;
     padding: 5px;
     transition: 0.25s ease;
 }
@@ -1552,7 +1552,7 @@ input:checked + .toggleSwitchSlider:before {
 .settingsAuthAccount {
     display: flex;
     background: rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 15px;
     border: 1px solid rgba(126, 126, 126, 0.57);
 }
 
@@ -1716,7 +1716,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsDropinModsContent {
     font-size: 12px;
     background: rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 15px;
     color: white;
 }
 
@@ -1804,7 +1804,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsDropinFileSystemButton {
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 15px;
     height: 50px;
     width: 100%;
     text-align: left;
@@ -1866,7 +1866,7 @@ input:checked + .toggleSwitchSlider:before {
 #settingsShaderpackButton {
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 15px;
     cursor: pointer;
     outline: none;
     transition: 0.25s ease;
@@ -1913,7 +1913,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 7px;
 }
 .settingsSelectSelected.select-arrow-active {
-    border-radius: 3px 3px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 /* Options content container. */
@@ -1927,7 +1927,7 @@ input:checked + .toggleSwitchSlider:before {
     overflow-y: scroll;
     border: 1px solid rgba(126, 126, 126, 0.57);
     border-top: none;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 0px 0px 15px 15px;
 }
 /* Hide the items when the select box is closed. */
 .settingsSelectOptions[hidden] {
