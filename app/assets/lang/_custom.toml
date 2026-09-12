@@ -4,7 +4,7 @@
 title = "OmegaClient"
 
 [ejs.landing]
-mediaGitHubURL = "https://www.omegamc.it"
+mediaGitHubURL = "https://launcher.omegamc.it"
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"

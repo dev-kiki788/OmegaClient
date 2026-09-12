@@ -260,34 +260,34 @@ okButton = "Okay"
 mainServer = "Server Principale"
 
 [js.settings.java]
-selectedJava = "Selected: Java {version} ({vendor})"
-invalidSelection = "Invalid Selection"
-requiresJava = "Requires Java {major} x64."
-availableOptions = "Available Options for Java {major} (HotSpot VM)"
+selectedJava = "Seleziona: Java {version} ({vendor})"
+invalidSelection = "Selezione non valida"
+requiresJava = "Richiede Java {major} x64."
+availableOptions = "Opzioni disponibili per Java {major} (HotSpot VM)"
 
 [js.settings.about]
-preReleaseTitle = "Pre-release"
-stableReleaseTitle = "Stable Release"
-releaseNotesFailed = "Failed to load release notes."
+preReleaseTitle = "Pre-rilascio"
+stableReleaseTitle = "Versione stabile"
+releaseNotesFailed = "Impossibile caricare le note di rilascio."
 
 [js.settings.updates]
-newReleaseTitle = "New Release Available"
-newPreReleaseTitle = "New Pre-release Available"
-downloadingButton = "Downloading.."
+newReleaseTitle = "Nuova versione disponibile"
+newPreReleaseTitle = "Nuova pre-release disponibile"
+downloadingButton = "Download in corso.."
 downloadButton = 'Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>'
-latestVersionTitle = "You Are Running the Latest Version"
-checkForUpdatesButton = "Check for Updates"
-checkingForUpdatesButton = "Checking for Updates.."
+latestVersionTitle = "Stai utilizzando la versione più recente."
+checkForUpdatesButton = "Controlla aggiornamenti"
+checkingForUpdatesButton = "Controllo aggiornamenti in corso.."
 
 [js.settings.msftLogin]
-errorTitle = "Microsoft Login Failed"
-errorMessage = "We were unable to authenticate your Microsoft account. Please try again."
+errorTitle = "Accesso a Microsoft non riuscito"
+errorMessage = "Non è stato possibile autenticare il tuo account Microsoft. Riprova."
 okButton = "OK"
 
 [js.uibinder.startup]
-fatalErrorTitle = "Fatal Error: Unable to Load Distribution Index"
-fatalErrorMessage = "A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
-closeButton = "Close"
+fatalErrorTitle = "Errore irreversibile: impossibile caricare l'indice di distribuzione"
+fatalErrorMessage = "Non è stato possibile stabilire una connessione ai nostri server per scaricare l'indice della distribuzione. Non erano disponibili copie locali da caricare. <br><br>L'indice di distribuzione è un file fondamentale che fornisce le informazioni più recenti sul server. Il launcher non può avviarsi senza di esso. Assicurati di essere connesso a Internet e riavvia l'applicazione."
+closeButton = "Chiudi"
 
 [js.uibinder.validateAccount]
 failedMessageTitle = "Failed to Refresh Login"
@@ -298,7 +298,7 @@ selectAnotherAccountButton = "Select Another Account"
 
 [js.uicore.autoUpdate]
 checkingForUpdateButton = "Controllo aggiornamenti in corso..."
-installNowButton = "Installa Ora"
+installNowButton = "Scarica Ora"
 checkForUpdatesButton = "Controlla aggiornamenti"
 
 [js.auth.microsoft.error]
