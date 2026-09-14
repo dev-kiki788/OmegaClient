@@ -75,7 +75,7 @@ class ProcessBuilder {
         const loggableArgs = [...args]
         loggableArgs[loggableArgs.findIndex(x => x === this.authUser.accessToken)] = '**********'
 
-        logger.info('Launch Arguments:', loggableArgs)
+        logger.info('Argomenti di avvio:', loggableArgs)
 
         const child = child_process.spawn(ConfigManager.getJavaExecutable(this.server.rawServer.id), args, {
             cwd: this.gameDir,
@@ -100,9 +100,9 @@ class ProcessBuilder {
             logger.info('Exited with code', code)
             fs.remove(tempNativePath, (err) => {
                 if(err){
-                    logger.warn('Error while deleting temp dir', err)
+                    logger.warn('Errore durante l\'eliminazione della directory temporanea', err)
                 } else {
-                    logger.info('Temp dir deleted successfully.')
+                    logger.info('Directory temporanea eliminata correttamente.')
                 }
             })
         })
@@ -752,7 +752,7 @@ class ProcessBuilder {
                         if(!shouldExclude){
                             fs.writeFile(path.join(tempNativePath, fileName), zipEntries[i].getData(), (err) => {
                                 if(err){
-                                    logger.error('Error while extracting native library:', err)
+                                    logger.error('Errore durante l\'estrazione della libreria nativa:', err)
                                 }
                             })
                         }
@@ -803,7 +803,7 @@ class ProcessBuilder {
                         if(!shouldExclude){
                             fs.writeFile(path.join(tempNativePath, extractName), zipEntries[i].getData(), (err) => {
                                 if(err){
-                                    logger.error('Error while extracting native library:', err)
+                                    logger.error('Errore durante l\'estrazione della libreria nativa:', err)
                                 }
                             })
                         }

@@ -34,7 +34,7 @@ function onDistroLoad(data){
         
         // Resolve the selected server if its value has yet to be set.
         if(ConfigManager.getSelectedServer() == null || data.getServerById(ConfigManager.getSelectedServer()) == null){
-            logger.info('Determining default selected server..')
+            logger.info('Determinazione del server selezionato di default..')
             ConfigManager.setSelectedServer(data.getMainServer().rawServer.id)
             ConfigManager.save()
         }
@@ -45,13 +45,13 @@ function onDistroLoad(data){
 // Ensure Distribution is downloaded and cached.
 DistroAPI.getDistribution()
     .then(heliosDistro => {
-        logger.info('Loaded distribution index.')
+        logger.info('Indice di distribuzione ponderato.')
 
         onDistroLoad(heliosDistro)
     })
     .catch(err => {
-        logger.info('Failed to load an older version of the distribution index.')
-        logger.info('Application cannot run.')
+        logger.info('Impossibile caricare una versione precedente dell\'indice di distribuzione.')
+        logger.info('L\'applicazione non può essere eseguita.')
         logger.error(err)
 
         onDistroLoad(null)
@@ -60,8 +60,8 @@ DistroAPI.getDistribution()
 // Clean up temp dir incase previous launches ended unexpectedly. 
 fs.remove(path.join(os.tmpdir(), ConfigManager.getTempNativeFolder()), (err) => {
     if(err){
-        logger.warn('Error while cleaning natives directory', err)
+        logger.warn('Errore durante la pulizia della directory dei file nativi', err)
     } else {
-        logger.info('Cleaned natives directory.')
+        logger.info('Directory dei file nativi ripulita.')
     }
 })
