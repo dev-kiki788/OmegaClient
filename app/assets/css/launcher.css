@@ -1459,7 +1459,7 @@ input:checked + .toggleSwitchSlider:before {
 /* File selection button. */
 .settingsFileSelButton {
     border: 0px;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 15px 15px 0px;
     font-size: 12px;
     padding: 0px 5px;
     cursor: pointer;
@@ -1639,7 +1639,7 @@ input:checked + .toggleSwitchSlider:before {
     color: rgb(241, 55, 55);
     background: none;
     font-size: 12px;
-    border-radius: 3px;
+    border-radius: 3px 3px 15px 3px;
     font-family: 'Avenir Medium';
     transition: 0.25s ease;
     cursor: pointer;
@@ -2100,7 +2100,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Text field to input the JVM options. */
 #settingsJVMOptsVal {
-    border-radius: 0px 3px 3px 0px !important;
+    border-radius: 0px 15px 15px 0px !important;
     width: 100%;
     padding: 5px 10px;
     font-size: 12px;

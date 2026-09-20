@@ -1,11 +1,11 @@
 {
   "name": "omegaclient",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "productName": "OmegaClient",
   "description": "",
   "author": "OmegaMC Studios",
   "license": "MIT",
-  "homepage": "https://launcher.omegamc.it",
+  "homepage": "https://www.omegamc.it",
   "bugs": {
     "url": "https://discord.omegamc.it"
   },
